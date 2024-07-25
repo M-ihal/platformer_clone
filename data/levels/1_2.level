@@ -5,7 +5,6 @@ music_id_cutscene : MUSIC_OVERWORLD
 music_id_complete : MUSIC_LEVEL_COMPLETE
 @level_params
 type : Tilemap
-unique_id : 1
 [193,13] : 7, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_BRICK, TILE_SPRITE_SOLID, TILE_BREAK_ANIM_BRICK
 [52,2] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_COBBLESTONE, TILE_SPRITE_SOLID, 0
 [138,3] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_COBBLESTONE, TILE_SPRITE_SOLID, 0
@@ -891,78 +890,61 @@ x_tiles : 200
 [194,19] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_SOLID, TILE_SPRITE_SOLID, 0
 @next
 type : Coin
-unique_id : 2
 position : 640, 96
 @next
 type : Coin
-unique_id : 3
 position : 720, 96
 @next
 type : Coin
-unique_id : 4
 position : 656, 144
 @next
 type : Coin
-unique_id : 5
 position : 672, 144
 @next
 type : Coin
-unique_id : 6
 position : 688, 144
 @next
 type : Coin
-unique_id : 7
 position : 704, 144
 @next
 type : Coin
-unique_id : 8
 position : 928, 96
 @next
 type : Coin
-unique_id : 9
 position : 944, 96
 @next
 type : Coin
-unique_id : 10
 position : 960, 96
 @next
 type : Coin
-unique_id : 11
 position : 976, 96
 @next
 type : CameraRegion
-unique_id : 12
 x_tiles_width : 192
 position : 0, 0
 @next
 type : BackgroundPlane
-unique_id : 13
 position : -16, -16
 size : 3136, 288
 color : 0.000000, 0.000000, 0.000000
 @next
 type : KillRegion
-unique_id : 14
 position : 1248, -32
 size : 112, 16
 @next
 type : KillRegion
-unique_id : 15
 position : 1888, -32
 size : 160, 16
 @next
 type : KillRegion
-unique_id : 16
 position : 2176, -32
 size : 176, 16
 @next
 type : KillRegion
-unique_id : 17
 position : 2416, -32
 size : 176, 16
 @next
 type : Tilemap
-unique_id : 18
 [6,9] : 7, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_BRICK, TILE_SPRITE_SOLID, TILE_BREAK_ANIM_BRICK_UG
 y_tiles : 13
 position : 1632, 352
@@ -1104,7 +1086,6 @@ x_tiles : 16
 [15,12] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_PIPE_V_L, TILE_SPRITE_SOLID, 0
 @next
 type : Tilemap
-unique_id : 19
 [0,7] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_SOLID, TILE_SPRITE_SOLID, 0
 y_tiles : 16
 position : -432, -16
@@ -1184,91 +1165,76 @@ x_tiles : 18
 [17,15] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_SOLID, TILE_SPRITE_SOLID, 0
 @next
 type : Goomba
-unique_id : 20
 position : 272, 47
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 21
 position : 256, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 22
 position : 464, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 23
 position : 1024, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 24
 position : 992, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 25
 position : 1168, 159
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 26
 position : 1216, 95
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 27
 position : 1242, 95
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 28
 position : 1632, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 29
 position : 1600, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 30
 position : 1568, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 31
 position : 1808, 31
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 32
 position : 2192, 95
 goomba_type : 1
 move_dir : -1
 @next
 type : Goomba
-unique_id : 33
 position : 2160, 95
 goomba_type : 1
 move_dir : -1
 @next
 type : Tilemap
-unique_id : 34
 y_tiles : 16
 position : 3232, -16
 [11,2] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_COBBLESTONE, TILE_SPRITE_SOLID, 0
@@ -1418,153 +1384,123 @@ x_tiles : 37
 [1,13] : 1, TILE_DROP_NONE, 0, 0, TILE_SPRITE_SOLID, TILE_SPRITE_SOLID, 0
 @next
 type : BackgroundPlane
-unique_id : 35
 position : -464, -48
 size : 352, 320
 color : 0.200000, 0.411765, 0.701961
 @next
 type : BackgroundSprite
-unique_id : 36
 position : -416, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 37
 position : -400, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 38
 position : -400, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 39
 position : -368, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 40
 position : -368, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 41
 position : -352, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 42
 position : -352, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 43
 position : -384, 32
 sprite : SPRITE_CASTLE_6
 @next
 type : BackgroundSprite
-unique_id : 44
 position : -384, 48
 sprite : SPRITE_CASTLE_3
 @next
 type : BackgroundSprite
-unique_id : 45
 position : -416, 64
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 46
 position : -352, 64
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 47
 position : -400, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 48
 position : -384, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 49
 position : -368, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 50
 position : -368, 80
 sprite : SPRITE_CASTLE_5
 @next
 type : BackgroundSprite
-unique_id : 51
 position : -400, 80
 sprite : SPRITE_CASTLE_4
 @next
 type : BackgroundSprite
-unique_id : 52
 position : -384, 80
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 53
 position : -400, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 54
 position : -384, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 55
 position : -368, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : Player
-unique_id : 56
 position : -384, 31
 player_starts_by_entering_pipe_cutscene : true
 @next
 type : BackgroundSprite
-unique_id : 57
 position : -240, 96
 sprite : SPRITE_CLOUD_3
 @next
 type : BackgroundSprite
-unique_id : 58
 position : -256, 96
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 59
 position : -272, 96
 sprite : SPRITE_CLOUD_1
 @next
 type : BackgroundSprite
-unique_id : 60
 position : -368, 160
 sprite : SPRITE_CLOUD_1
 @next
 type : BackgroundSprite
-unique_id : 61
 position : -352, 160
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 62
 position : -336, 160
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 63
 position : -320, 160
 sprite : SPRITE_CLOUD_3
 @next
 type : Portal
-unique_id : 64
 position : -256, 32
 info.dest : 48, 192
 info.vertical_enter : false
@@ -1572,292 +1508,231 @@ info.vertical_exit : true
 info.do_exit_anim : false
 @next
 type : CameraRegion
-unique_id : 65
 x_tiles_width : 16
 position : -416, 0
 @next
 type : FlagPole
-unique_id : 66
 height : 9
 position : 3616, 48
 @next
 type : BackgroundSprite
-unique_id : 67
 position : 3648, 160
 sprite : SPRITE_CLOUD_1
 @next
 type : BackgroundSprite
-unique_id : 68
 position : 3664, 160
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 69
 position : 3680, 160
 sprite : SPRITE_CLOUD_3
 @next
 type : BackgroundSprite
-unique_id : 70
 position : 3760, 32
 sprite : SPRITE_BUSH_3
 @next
 type : BackgroundSprite
-unique_id : 71
 position : 3584, 32
 sprite : SPRITE_HILL_5
 @next
 type : BackgroundSprite
-unique_id : 72
 position : 3568, 48
 sprite : SPRITE_HILL_5
 @next
 type : BackgroundSprite
-unique_id : 73
 position : 3520, 32
 sprite : SPRITE_HILL_1
 @next
 type : BackgroundSprite
-unique_id : 74
 position : 3536, 48
 sprite : SPRITE_HILL_1
 @next
 type : BackgroundSprite
-unique_id : 75
 position : 3552, 64
 sprite : SPRITE_HILL_6
 @next
 type : BackgroundSprite
-unique_id : 76
 position : 3552, 32
 sprite : SPRITE_HILL_3
 @next
 type : BackgroundSprite
-unique_id : 77
 position : 3568, 32
 sprite : SPRITE_HILL_4
 @next
 type : BackgroundSprite
-unique_id : 78
 position : 3536, 32
 sprite : SPRITE_HILL_2
 @next
 type : BackgroundSprite
-unique_id : 79
 position : 3552, 48
 sprite : SPRITE_HILL_2
 @next
 type : BackgroundSprite
-unique_id : 80
 position : 3328, 176
 sprite : SPRITE_CLOUD_1
 @next
 type : BackgroundSprite
-unique_id : 81
 position : 3344, 176
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 82
 position : 3360, 176
 sprite : SPRITE_CLOUD_2
 @next
 type : BackgroundSprite
-unique_id : 83
 position : 3376, 176
 sprite : SPRITE_CLOUD_3
 @next
 type : BackgroundSprite
-unique_id : 84
 position : 3744, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 85
 position : 3744, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 86
 position : 3728, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 87
 position : 3728, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 88
 position : 3696, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 89
 position : 3696, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 90
 position : 3680, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 91
 position : 3680, 48
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 92
 position : 3680, 64
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 93
 position : 3744, 64
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 94
 position : 3696, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 95
 position : 3712, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 96
 position : 3728, 64
 sprite : SPRITE_CASTLE_2
 @next
 type : BackgroundSprite
-unique_id : 97
 position : 3712, 48
 sprite : SPRITE_CASTLE_3
 @next
 type : BackgroundSprite
-unique_id : 98
 position : 3712, 32
 sprite : SPRITE_CASTLE_6
 @next
 type : BackgroundSprite
-unique_id : 99
 position : 3728, 80
 sprite : SPRITE_CASTLE_5
 @next
 type : BackgroundSprite
-unique_id : 100
 position : 3696, 80
 sprite : SPRITE_CASTLE_4
 @next
 type : BackgroundSprite
-unique_id : 101
 position : 3712, 80
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundSprite
-unique_id : 102
 position : 3696, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 103
 position : 3712, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundSprite
-unique_id : 104
 position : 3728, 96
 sprite : SPRITE_CASTLE_1
 @next
 type : BackgroundPlane
-unique_id : 105
 position : 3216, -48
 size : 640, 320
 color : 0.200000, 0.411765, 0.701961
 @next
 type : BackgroundSprite
-unique_id : 106
 position : -416, 32
 sprite : SPRITE_CASTLE_7
 @next
 type : BackgroundPlane
-unique_id : 107
 position : 1600, 320
 size : 320, 288
 color : 0.000000, 0.000000, 0.000000
 @next
 type : Coin
-unique_id : 108
 position : 1696, 448
 @next
 type : Coin
-unique_id : 109
 position : 1712, 448
 @next
 type : Coin
-unique_id : 110
 position : 1728, 448
 @next
 type : Coin
-unique_id : 111
 position : 1744, 448
 @next
 type : Coin
-unique_id : 112
 position : 1760, 448
 @next
 type : Coin
-unique_id : 113
 position : 1776, 448
 @next
 type : Coin
-unique_id : 114
 position : 1792, 448
 @next
 type : Coin
-unique_id : 115
 position : 1808, 448
 @next
 type : Coin
-unique_id : 116
 position : 1696, 384
 @next
 type : Coin
-unique_id : 117
 position : 1712, 384
 @next
 type : Coin
-unique_id : 118
 position : 1728, 384
 @next
 type : Coin
-unique_id : 119
 position : 1744, 384
 @next
 type : Coin
-unique_id : 120
 position : 1760, 384
 @next
 type : Coin
-unique_id : 121
 position : 1776, 384
 @next
 type : Coin
-unique_id : 122
 position : 1792, 384
 @next
 type : Coin
-unique_id : 123
 position : 1808, 384
 @next
 type : Coin
-unique_id : 124
 position : 1680, 384
 @next
 type : Portal
-unique_id : 125
 position : 1840, 384
 info.dest : 1848, 64
 info.vertical_enter : false
@@ -1865,7 +1740,6 @@ info.vertical_exit : true
 info.do_exit_anim : true
 @next
 type : Portal
-unique_id : 126
 position : 1648, 64
 info.dest : 1656, 544
 info.vertical_enter : true
@@ -1873,12 +1747,10 @@ info.vertical_exit : true
 info.do_exit_anim : false
 @next
 type : CameraRegion
-unique_id : 127
 x_tiles_width : 16
 position : 1632, 352
 @next
 type : Portal
-unique_id : 128
 position : 2656, 80
 info.dest : 3320, 64
 info.vertical_enter : false
@@ -1886,13 +1758,11 @@ info.vertical_exit : true
 info.do_exit_anim : true
 @next
 type : Koopa
-unique_id : 129
 position : 2432, 31
 move_dir : -1
 koopa_type : 3
 @next
 type : MovingPlatform
-unique_id : 130
 position : 2504, 136
 y_start : -16
 y_end : 256
@@ -1900,7 +1770,6 @@ seconds_per_distance : 2.500000
 num_of_segments : 4
 @next
 type : MovingPlatform
-unique_id : 131
 position : 2504, -4
 y_start : -16
 y_end : 256
@@ -1908,7 +1777,6 @@ seconds_per_distance : 2.500000
 num_of_segments : 4
 @next
 type : MovingPlatform
-unique_id : 132
 position : 2264, 70
 y_start : -16
 y_end : 256
@@ -1916,7 +1784,6 @@ seconds_per_distance : 2.500000
 num_of_segments : 4
 @next
 type : MovingPlatform
-unique_id : 133
 position : 2264, 210
 y_start : -16
 y_end : 256
@@ -1924,37 +1791,31 @@ seconds_per_distance : 2.500000
 num_of_segments : 4
 @next
 type : CameraRegion
-unique_id : 134
 x_tiles_width : 32
 position : 3264, 0
 @next
 type : TriggerableText
-unique_id : 135
 position : 2854, 122
 tt_text : Afi
 trigger_key : _pipes
 @next
 type : TriggerableText
-unique_id : 136
 position : 2918, 122
 tt_text : end
 trigger_key : _pipes
 @next
 type : TriggerableText
-unique_id : 137
 position : 2973, 122
 tt_text : Back
 trigger_key : _pipes
 @next
 type : Trigger
-unique_id : 138
 position : 2944, 208
 trigger_type : 1
 size : 16, 80
 trigger_key : _pipes
 @next
 type : Tilemap
-unique_id : 139
 [0,7] : 7, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_BRICK, TILE_SPRITE_SOLID, TILE_BREAK_ANIM_BRICK_UG
 y_tiles : 15
 position : 2736, 352
@@ -2026,7 +1887,6 @@ x_tiles : 16
 [15,12] : 7, TILE_DROP_NONE, 0, 0, TILE_SPRITE_UG_BRICK, TILE_SPRITE_SOLID, TILE_BREAK_ANIM_BRICK_UG
 @next
 type : Portal
-unique_id : 140
 position : 2848, 64
 info.dest : 2760, 416
 info.vertical_enter : true
@@ -2034,7 +1894,6 @@ info.vertical_exit : true
 info.do_exit_anim : true
 @next
 type : Portal
-unique_id : 141
 position : 2944, 464
 info.dest : 3320, 64
 info.vertical_enter : false
@@ -2042,18 +1901,15 @@ info.vertical_exit : true
 info.do_exit_anim : true
 @next
 type : CameraRegion
-unique_id : 142
 x_tiles_width : 16
 position : 2736, 352
 @next
 type : BackgroundPlane
-unique_id : 143
 position : 2720, 336
 size : 288, 272
 color : 0.000000, 0.000000, 0.000000
 @next
 type : Portal
-unique_id : 144
 position : 2976, 64
 info.dest : 2584, 80
 info.vertical_enter : true
@@ -2061,31 +1917,25 @@ info.vertical_exit : true
 info.do_exit_anim : false
 @next
 type : TriggerableText
-unique_id : 145
 position : 2840, 559
 tt_text : Afi -.-
 trigger_key : _pipes
 @next
 type : Piranha
-unique_id : 146
 position : 1656, 56
 @next
 type : Piranha
-unique_id : 147
 position : 1752, 72
 @next
 type : Piranha
-unique_id : 148
 position : 1848, 40
 @next
 type : BackgroundImage
-unique_id : 149
 image_id : IMAGE_AFI
-position : 2736, 352
-opacity : 0.500000
+position : 2800, 384
+opacity : 0.900000
 @next
 type : Portal
-unique_id : 150
 position : 2912, 64
 info.dest : 3320, 64
 info.vertical_enter : true
